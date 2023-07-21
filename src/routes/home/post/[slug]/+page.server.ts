@@ -5,7 +5,7 @@ export function load({ params }) {
     if (params.slug === '90dns') {
         return {
             title: 'why 90dns is bad',
-            content: 'its a dns system with will break when you end up changing to a new network or the servers just.. go down.'
+            content: 'its a dns system which will break when you end up changing to a new network or the servers just.. go down. this can lead to a console ban.'
         };
     } else if (params.slug === 'ban') {
         return {
