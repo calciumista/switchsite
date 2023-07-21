@@ -20,5 +20,8 @@
               </div>
         </a>
       </div>
-
+      <div class="align-bottom">
+        <p class="text-white text-sm text-center">made by @calciumista on disc github.com/calciumista/switchsite</p>
+    </div>
 </div>
+
