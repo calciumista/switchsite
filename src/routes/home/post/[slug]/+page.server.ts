@@ -5,7 +5,7 @@ export function load({ params }) {
     if (params.slug === '90dns') {
         return {
             title: 'why 90dns is bad',
-            content: 'its a dns system which will break when you end up changing to a new network or the servers just.. go down. this can lead to a console ban.'
+            content: 'its a dns system which will break when you end up changing to a new network or the servers just.. go down. this can lead to a console ban. <br> see <a href="https://switchsite.vercel.app/home/posts/ban" class="underline">here</a> for more adequate options.'
         };
     } else if (params.slug === 'ban') {
         return {
