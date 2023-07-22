@@ -16,8 +16,8 @@ export function load({ params }) {
         return {
             title: 'good links for homebrew!',
             content: `<ul>
-            <li>forum: gbatemp.net</li> 
-            <li>appstore: switch.fortheusers.org</li>
+            <li>forum: <a href="https://gbatemp.net" class="underline">gbatemp.net</a></li> 
+            <li>appstore: <a href="https://apps.fortheusers.org/switch" class="underline">apps.fortheusers.org/switch</a></li>
             </ul>`
         }
     }
