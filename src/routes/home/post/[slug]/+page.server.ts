@@ -15,7 +15,10 @@ export function load({ params }) {
     } else if (params.slug === 'links') {
         return {
             title: 'good links for homebrew!',
-            content: `forum: gbatemp.net <br> appstore: switch.fortheusers.org <br>`
+            content: `<ul>
+            <li>forum: gbatemp.net</li> 
+            <li>appstore: switch.fortheusers.org</li>
+            </ul>`
         }
     }
 
